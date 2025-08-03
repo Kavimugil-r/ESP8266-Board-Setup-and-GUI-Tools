@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 CommitPush.ps1
 CommitPush.bat
+=======
+PushCommit.ps1
+PushCommit.bat
+>>>>>>> 0114897fec121338ad1c395e09fdc213e888b4ca
