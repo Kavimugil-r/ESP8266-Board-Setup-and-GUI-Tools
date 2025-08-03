@@ -38,16 +38,26 @@ This repository includes everything you need to begin working with the NodeMCU E
 
 For complete step-by-step instructions, visit the documentation:
 
-➡️ **[Read the Setup Guide](./ESP8266-Board-Setup-and-GUI-Tools%20DOCUMENTATION.md)**
+➡️ **[Read the DOCUMENTATION.md for Setup Guide](https://github.com/Kavimugil-r/ESP8266-Board-Setup-and-GUI-Tools/blob/master/DOCUMENTATION.md)**
 
 ---
 
 ## 📷 Pinout Reference
 Refer to the provided image in the repository to understand each pin's functionality. This is crucial when connecting sensors, relays, LEDs, or any peripheral modules.
 
+➡️ **[Tap for PINOUT Image](https://github.com/Kavimugil-r/ESP8266-Board-Setup-and-GUI-Tools/blob/master/board_pinout.jpg)**
+
 ---
 
 ## 📩 License & Contributions
 This project is open-source. Feel free to contribute by improving documentation, sharing code examples, or submitting issues.
+
+---
+## 🔗 Buy the Board
+
+If you're building your own project with the ESP8266, this board is a great starting point!  
+I personally recommend buying from **Robu.in** — it's affordable and reliable.
+
+➡️ **[Buy NodeMCU ESP8266 V3 Lua CH340 WiFi Dev Board](https://robu.in/product/nodemcu-esp8266-v3-lua-ch340-wifi-dev-board/)**
 
 ---
