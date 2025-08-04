@@ -45,7 +45,7 @@ This guide is a beginner-friendly walkthrough to set up the NodeMCU ESP8266 V3 (
 **When to use:**
 
 - Installing new firmware
-- Uploading via `esptool.py`
+- Uploading via `esptool`
 - Recovering bricked boards
 
 **How to enter flash mode:**
@@ -75,7 +75,7 @@ This guide is a beginner-friendly walkthrough to set up the NodeMCU ESP8266 V3 (
 ### 🧹 Step 3: Erase Existing Firmware
 
 ```bash
-esptool.py --port COM4 erase-flash
+esptool --port COM4 erase-flash
 ```
 
 > Replace `COM4` with your port
@@ -85,7 +85,7 @@ esptool.py --port COM4 erase-flash
 ### 📦 Step 4: Flash MicroPython
 
 ```bash
-esptool.py --chip esp8266 --port COM4 --baud 115200 \
+esptool --chip esp8266 --port COM4 --baud 115200 \
   write-flash --flash-mode dio --flash-size detect 0x0 \
   ESP8266_GENERIC-20250415-v1.25.0.bin
 ```
@@ -181,10 +181,10 @@ Used for:
 pip install esptool
 
 # Erase board
-esptool.py --port COM4 erase-flash
+esptool --port COM4 erase-flash
 
 # Flash MicroPython
-esptool.py --chip esp8266 --port COM4 --baud 115200 \
+esptool --chip esp8266 --port COM4 --baud 115200 
   write-flash --flash-mode dio --flash-size detect 0x0 firmware.bin
 
 # Open MicroPython shell
