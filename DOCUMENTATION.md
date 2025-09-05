@@ -85,9 +85,7 @@ esptool --port COM4 erase-flash
 ### 📦 Step 4: Flash MicroPython
 
 ```bash
-esptool --chip esp8266 --port COM4 --baud 115200 
-  write-flash --flash-mode dio --flash-size detect 0x0 
-  ESP8266_GENERIC-20250415-v1.25.0.bin
+esptool --chip esp8266 --port COM4 --baud 115200 write-flash --flash-mode dio --flash-size detect 0x0 "path/to/ESP8266_GENERIC-20250415-v1.25.0.bin"
 ```
 
 > ⚠️ **Use **``. Default `qio` causes bootloop with CH340 boards. ⚠️ Replace `.bin` with actual path to downloaded MicroPython firmware.
