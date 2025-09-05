@@ -85,8 +85,8 @@ esptool --port COM4 erase-flash
 ### 📦 Step 4: Flash MicroPython
 
 ```bash
-esptool --chip esp8266 --port COM4 --baud 115200 \
-  write-flash --flash-mode dio --flash-size detect 0x0 \
+esptool --chip esp8266 --port COM4 --baud 115200 
+  write-flash --flash-mode dio --flash-size detect 0x0 
   ESP8266_GENERIC-20250415-v1.25.0.bin
 ```
 
